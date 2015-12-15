@@ -1,15 +1,16 @@
+
 $(document).ready(function() {
 	var limit = 100;
 	for (var counter = 1; counter <= limit; counter++) {
 		if (counter % 3 == 0) {
-		console.log ('fizz');
+		document.write ('fizz');
 		}
 		else if (counter % 5 == 0) {
-		console.log ('buzz');
+		document.write ('buzz');
 		}
 		else if (counter % 15 == 0) {
-		console.log ('fizzbuzz');
+		document.write ('fizzbuzz');
 		}
-		else {console.log(counter);}
+		else {document.write(counter);}
 	}
 });
